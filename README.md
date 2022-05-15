@@ -37,3 +37,5 @@ checkbox:
 [ ] Bunnyflare Canonical SSL Redirect
 
 <button>Apply selected Edge Rules</button>
+
+![](https://raw.githubusercontent.com/niiknow/wp-bunnyflare/main/public/images/edgerules.png)

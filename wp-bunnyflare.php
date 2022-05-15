@@ -1,16 +1,16 @@
 <?php
 /**
- * Plugin Name: PluginName
+ * Plugin Name: Bunnyflare
  * Version: 1.0.0
  * Plugin URI:
- * Description: PluginName
+ * Description: Content Delivery Network (CDN) proxy your site like Cloudflare, but with BunnyCDN.
  * Author: noogen
  * Author URI:
  * Requires at least: 5.6
  * Tested up to: 5.8.3
  * Requires PHP: 7.4
  *
- * Text Domain: PluginPrefix
+ * Text Domain: bunnyflare
  * Domain Path: /languages/
  *
  * License: GPLv2 or later
@@ -38,7 +38,7 @@ require __DIR__ . '/vendor/autoload.php';
 /**
  * Returns the main instance to prevent the need to use globals.
  */
-$instance = \PluginSpace\Main::get_instance(__FILE__, '1.0.0');
+$instance = \Bunnyflare\Main::get_instance(__FILE__, '1.0.0');
 $instance->run();
 
 return $instance;

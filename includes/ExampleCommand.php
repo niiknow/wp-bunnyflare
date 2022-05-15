@@ -1,6 +1,6 @@
 <?php
 
-namespace PluginSpace;
+namespace Bunnyflare;
 
 /**
  * Implements example command.

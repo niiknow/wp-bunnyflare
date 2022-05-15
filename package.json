@@ -1,10 +1,10 @@
 {
-  "name": "PluginFileName",
+  "name": "wp-bunnyflare",
   "version": "1.0.0",
   "description": "A WordPress Vue.js starter plugin",
   "author": "Tom Noogen",
   "license": "GPLv2",
-  "textdomain": "PluginPrefix",
+  "textdomain": "bunnyflare",
   "scripts": {
     "dev": "npm run development",
     "development": "mix",

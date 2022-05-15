@@ -40,6 +40,17 @@
 
     <!--Section container-->
     <section class="w-full md:w-4/5 min-h-screen">
+      <h2>Setup BunnyCDN</h2>
+      <p style="font-size:16px;">
+        The bunny.net (formerly, known as BunnyCDN) API key is required to manage the zone. Adding this will enable features such as automatic cache purging.
+      </p>
+      <ol>
+        <li><strong>New to bunny.net?</strong>
+          <a target="_blank" rel="noopener noreferrer" href="https://bunny.net/">Sign up</a>
+        </li>
+        <li>Get key in the Account menu</li>
+      </ol>
+
       <div class="ml-3" v-scroll-spy>
         <div class="pt-4" v-for="(value, name) in structure.sections">
           <!--Title-->

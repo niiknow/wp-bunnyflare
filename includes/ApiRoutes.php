@@ -1,6 +1,6 @@
 <?php
 
-namespace PluginSpace;
+namespace Bunnyflare;
 
 /**
  * API routes loader.
